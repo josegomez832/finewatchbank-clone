@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@900&display=swap');
+body{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+body *, html *{
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  line-height:20px;
+}
+.pull-left{float:left;}
+h1, h2, h3, h4{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom:20px;
+}
+h1{
+  font-size:3rem;
+  line-height:3rem;
+}
+h2{
+  font-size:2.25rem;
+  line-height:2rem;
+}
+h3{
+  font-size:1.5rem;
+  line-height:1.5rem;
+}
+h4{
+  font-size:1rem;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+  background-color:#fff!important;
+}
+a.navbar-brand img {
+  max-width: 175px;
+}
+img{
+  max-width:100%;
+}
+.carousel-item img{
+  object-fit:cover;
+  height:550px;
+}
+.callout__buckets{
+  background:#f4f3f4;
+}
+.bucket__title {
+  position: absolute;
+  bottom: 2%;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3rem;
+  max-width: 55%;
+  line-height: 3rem;
+  left: 5%;
+  font-family: 'Roboto', sans-serif;
+}
+.callout__buckets .content img{
+  max-width:360px;
+  display:block;
+  margin:0 auto 20px auto;
+}
+.callout__buckets .content h3{
+  text-align:center;
+}
+.callout__buckets .content p{
+  max-width:70%;
+  margin-left:20%;
+}
+.bg{
+  background-size:cover;
+}
+.bucket{
+  padding-top:8%;
+  padding-bottom:8%;
+}
+.panel{
+  padding-top:5em;
+  padding-bottom:5em;
+}
+.products h2{
+  text-align:center;
+}
+.product__item{
+  text-align:center;
+}
+.product__item h3 {
+  font-size: 16px;
+  font-weight: 800;
+}
+.product__item .price{
+  color:#dd1f26;
+  font-size:14px;
+}
+.light__bg-opacity{
+  background:rgba(255,255,255,0.6);
+  padding-top:5em;
+  padding-bottom:5em;
+}
+.light__bg-opacity p{
+  padding-right:3em;
+  padding-left:3em;
+}
+.text-center{
+  text-align:center;
+}
+.contact__details{
+  list-style: none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
