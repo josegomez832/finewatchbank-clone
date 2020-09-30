@@ -16,6 +16,8 @@ import { CartProvider } from './context/use-cart'
 
 import './bootstrap/bootstrap.min.css'
 import './App.css'
+
+require('./scripts');
 function App() {
   const stripePromise = loadStripe('pk_test_51HWZJ7COtMYEgwAkWzeOKutR4r9fTu49RxwXHzEQQavHHZsmr56y3T3f4ZKsGxrQbb9VPavSXjAdrWAi0dPQdg4i00IfDOngrX');
   return (
