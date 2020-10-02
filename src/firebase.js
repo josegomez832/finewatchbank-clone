@@ -15,4 +15,4 @@ import firebase from './firebase'
   //see https://youtu.be/B6ay3jAZN5o?t=6628
   //const auth = firebase.auth();
 
- export { db };
+ export { db }; 

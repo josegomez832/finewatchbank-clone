@@ -28,11 +28,23 @@ h3{
 h4{
   font-size:1rem;
 }
+.navbar.fixed{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:9;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light{
   background-color:#fff!important;
 }
 a.navbar-brand img {
   max-width: 175px;
+  transition:1s width;
+}
+.navbar.fixed .navbar-brand img {
+  width: 100px;
 }
 img{
   max-width:100%;
